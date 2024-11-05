@@ -24,4 +24,10 @@ export const Button = styled.button`
     padding: 15px 50px;
     font-family: sans-serif;
     margin-bottom: 70px;
+    transition 1s;
+
+    &:hover {
+    background-color: #701c16;
+    }
+
 `;

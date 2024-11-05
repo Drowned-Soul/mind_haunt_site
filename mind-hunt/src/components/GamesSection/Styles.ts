@@ -19,6 +19,7 @@ export const Title = styled.h1`
 export const GamesContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
+    margin-bottom: 100px
 `
 
 export const GameCardContainer = styled.div`
