@@ -12,7 +12,7 @@ export const Container = styled.div<ICarousel>`
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 100vh;
+    height: 95vh;
 `;
 
 export const Button = styled.button`
