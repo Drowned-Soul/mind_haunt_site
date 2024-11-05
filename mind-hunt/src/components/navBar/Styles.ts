@@ -29,8 +29,8 @@ export const Image = styled.img`
 
 export const NavItem = styled.p`
     color: #fff;
-    font-size: 20px;
-    font-family: 'Almendra', sans-serif;
+    font-size: 30px;
+    font-family: "Almendra SC", sans-serif;
     transition: color 0.3s ease, transform 0.3s ease;
 
     &:hover {
