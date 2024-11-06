@@ -16,6 +16,7 @@ export const Container = styled.div<InavBar>`
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.2);
 `;
 
 export const ImageContainer = styled.div`
