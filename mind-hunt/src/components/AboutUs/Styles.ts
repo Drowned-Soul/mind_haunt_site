@@ -20,7 +20,7 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
 `
 
