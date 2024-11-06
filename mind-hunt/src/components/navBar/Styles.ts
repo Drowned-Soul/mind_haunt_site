@@ -15,6 +15,7 @@ export const Container = styled.div<InavBar>`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
 `;
 
 export const ImageContainer = styled.div`

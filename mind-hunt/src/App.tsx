@@ -6,6 +6,7 @@ import OurTeam from './components/OurTeam/OurTeam';
 import Reviews from './components/ReviewsSection/ReviewsSection';
 import ArtGallery from './components/ArtGallery/ArtGallery';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 import { GlobalStyle } from './components/GlobalStyles/GlobalStyle';
 
@@ -21,6 +22,7 @@ function App() {
       <Reviews></Reviews>
       <ArtGallery></ArtGallery>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   )
 }
