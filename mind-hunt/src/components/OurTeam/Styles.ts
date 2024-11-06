@@ -25,7 +25,7 @@ export const Title = styled.h1<ITitle>`
 export const PersonContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
-    margin-bottom: 100px
+    margin-bottom: 200px;
 `
 
 export const PersonCardContainer = styled.div`

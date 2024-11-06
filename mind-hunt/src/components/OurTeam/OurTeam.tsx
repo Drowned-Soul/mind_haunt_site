@@ -14,7 +14,7 @@ export default function OurTeam() {
                         <BorderPersonCard src={border}></BorderPersonCard>
                     </PersonCard>
                     <PersonName>Custódio</PersonName>
-                    <PersonName>Java Proggramer</PersonName>
+                    <PersonName>Java Programmer</PersonName>
                 </PersonCardContainer>
 
                 <PersonCardContainer>
@@ -23,7 +23,7 @@ export default function OurTeam() {
                         <BorderPersonCard src={border}></BorderPersonCard>
                     </PersonCard>
                     <PersonName>Custódio</PersonName>
-                    <PersonName>Java Proggramer</PersonName>
+                    <PersonName>Java Programmer</PersonName>
                 </PersonCardContainer>
 
                 <PersonCardContainer>
@@ -32,7 +32,7 @@ export default function OurTeam() {
                         <BorderPersonCard src={border}></BorderPersonCard>
                     </PersonCard>
                     <PersonName>Custódio</PersonName>
-                    <PersonName>Java Proggramer</PersonName>
+                    <PersonName>Java Programmer</PersonName>
                 </PersonCardContainer>
             </PersonContainer>
         </Container>
