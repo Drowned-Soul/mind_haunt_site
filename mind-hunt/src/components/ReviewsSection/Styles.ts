@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1<ITitle>`
     color: ${(props) => props.color || "#fff"};;
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
@@ -43,13 +43,13 @@ export const ReviewCard = styled.div`
 
 export const SpeechBubble = styled.div`
     position: relative;
-    height: 200px;
+    height: 150px;
     width: 25vw;
     margin-left: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ebebeb;
+    background-color: #E7E0EC;
     border-radius: 30px 30px 30px 0;
     padding: 20px;
 `;
@@ -58,14 +58,14 @@ export const SpeechBubbleDetail = styled.div`
     content: "";
     height: 0;
     margin: 0 0 30px 60px;
-    border-left: 40px solid #ebebeb;
+    border-left: 40px solid #E7E0EC;
     border-right: 40px solid transparent;
     border-bottom: 40px solid transparent;
 `
 
 export const Text = styled.p<ITitle>`
     color: ${(props) => props.color || "#fff"};
-    font-size: 20px;
+    font-size: 15px;
     word-wrap: break-word;
 `;
 
@@ -90,8 +90,8 @@ export const Reviwer = styled.div<IPersonCard>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 97px;
+    width: 100px;
     border-radius: 50%;
     z-index: 1;
     display: flex;

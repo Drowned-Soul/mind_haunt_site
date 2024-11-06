@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1<ITitle>`
     color: ${(props) => props.color || "#fff"};;
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ export const ArtsContainer = styled.div`
 export const DescriptionContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 35vw;
+    width: 25vw;
 `
 
 
@@ -64,21 +64,23 @@ export const Button = styled.button`
     background-color: red;
     color: #fff;
     height: 60px;
-    width: 35%;
+    width: 60%;
     padding: 15px 50px;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     margin: 40px auto;
     border-radius: 10px;
 
+    transition: .5s;
+
     &:hover {
-        background-color: #701c16;
+    background-color: #701c16;
     }
 `;
 
 export const Text = styled.p`
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
 `

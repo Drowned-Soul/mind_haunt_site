@@ -20,7 +20,7 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
 `
 
@@ -38,7 +38,6 @@ export const ImageContainer = styled.div`
 `
 
 export const Image = styled.img`
-    width: 100%; 
-    height: 100%;
+    width: 55vh; 
     object-fit: cover;
 `;

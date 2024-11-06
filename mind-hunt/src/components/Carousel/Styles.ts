@@ -5,15 +5,21 @@ export interface ICarousel {
 }
 
 export const Container = styled.div<ICarousel>`
-    background-image: url(${(props) => props.backgroundImage}); /* Usa a prop backgroundImage */
+    background-image: url(${(props) => props.backgroundImage});
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 95vh;
+    height: 85vh;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    margin-bottom: 100px;
 `;
+
+
 
 export const Button = styled.button`
     border: none;
@@ -23,8 +29,9 @@ export const Button = styled.button`
     border-radius: 10px;
     padding: 15px 50px;
     font-family: sans-serif;
+    margin-top: 100px;
     margin-bottom: 70px;
-    transition 1s;
+    transition: .5s;
 
     &:hover {
     background-color: #701c16;

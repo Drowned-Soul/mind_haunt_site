@@ -7,8 +7,8 @@ export interface InavBar {
 }
 
 export const Container = styled.div<InavBar>`
-    background-color: #111;
-    height: 15vh;
+    background-color: #000;
+    height: 80px;
     width: 100%;
     margin: ${(props) => props.margin || "auto"};
     z-index: 2;
@@ -21,8 +21,8 @@ export const Container = styled.div<InavBar>`
 
 export const ImageContainer = styled.div`
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 `
 
 export const Image = styled.img`
@@ -31,10 +31,9 @@ export const Image = styled.img`
 
 export const NavItem = styled.p`
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Almendra SC", sans-serif;
     transition: color 0.3s ease, transform 0.3s ease;
-
     &:hover {
         cursor: pointer;
         color: red;

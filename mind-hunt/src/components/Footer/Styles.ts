@@ -18,7 +18,7 @@ export const Container = styled.div<ICarousel>`
     display: flex;
     flex-direction: column;
     padding: 60px 0;
-    margin: 0 5vw;
+    width: 20vw;
 `;
 
 export const WaterMarkContainer = styled.footer<ICarousel>`
@@ -35,7 +35,7 @@ export const WaterMarkContainer = styled.footer<ICarousel>`
 
 export const SubContainer = styled.div<ICarousel>`
     display: flex;
-    padding: 60px 0;
+    padding: 10px 0;
     gap: 100px;
 `;
 

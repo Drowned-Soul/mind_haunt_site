@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1<ITitle>`
     color: ${(props) => props.color || "#fff"};;
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
@@ -26,6 +26,7 @@ export const PersonContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
+    
 `
 
 export const PersonCardContainer = styled.div`
@@ -33,11 +34,11 @@ export const PersonCardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 400px;
+    
 `
 export const PersonCard = styled.div<IPersonCard>`
     position: relative;
-    height: 500px;
-    width: 500px;
+    width: 30vw;
     margin-bottom: 40px;
     border-radius: 100%;
     display: flex;

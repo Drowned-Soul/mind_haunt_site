@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
@@ -23,5 +24,33 @@ export const GlobalStyle = createGlobalStyle`
 
     body button, body a {
         cursor: pointer;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px; 
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--scrollbar-bg);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #780606;
+        border-radius: 10px;
+        border: 3px solid var(--scrollbar-bg);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #c40c0c
+    }
+
+    ::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: transparent;
     }
 `

@@ -30,12 +30,12 @@ export const Infos = styled.p<ICarousel>`
     color: #fff;
     line-height: 1;
     margin: 0;
-    font-size: 30px;
+    font-size: 15px;
 `;
 
 export const Title = styled.h1`
     color: #fff;
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     line-height: 1;
@@ -44,7 +44,7 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h1`
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     line-height: 1;
@@ -53,7 +53,7 @@ export const SubTitle = styled.h1`
 
 export const Text = styled.p`
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
     
 `

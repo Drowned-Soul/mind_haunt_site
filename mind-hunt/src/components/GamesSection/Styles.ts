@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
     color: red;
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ export const GameCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25vw;
+    width: 20vw;
 `
 
 export const GameCard = styled.div<IGameCard>`
@@ -34,7 +34,7 @@ export const GameCard = styled.div<IGameCard>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 60vh;
     width: 100%;
     border-radius: 30px;
     border: 2px solid red;
@@ -53,6 +53,12 @@ export const Button = styled.button`
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 40px;
+
+    transition: .5s;
+
+    &:hover {
+        background-color: #701c16;
+    }
 `;
 
 export const GameDescription = styled.p`
