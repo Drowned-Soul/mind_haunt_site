@@ -50,22 +50,21 @@ export const PersonIcon = styled.div<IPersonCard>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
+    height: 18vw;
+    width: 18vw;
     border-radius: 100%;
     position: absolute;
     z-index: 1;
 `;
 
 export const BorderPersonCard = styled.img`
-    height: 500px;
-    width: 500px;
-    border-radius: 100%;
+    height: 30vw;
+    width: 30vw;
     object-fit: cover;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
+
 `;
 
 export const PersonName = styled.p`

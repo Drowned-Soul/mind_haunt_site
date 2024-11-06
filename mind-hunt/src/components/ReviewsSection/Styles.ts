@@ -44,7 +44,7 @@ export const ReviewCard = styled.div`
 export const SpeechBubble = styled.div`
     position: relative;
     height: 200px;
-    width: 500px;
+    width: 25vw;
     margin-left: 60px;
     display: flex;
     align-items: center;

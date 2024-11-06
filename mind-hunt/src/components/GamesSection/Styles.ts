@@ -19,14 +19,14 @@ export const Title = styled.h1`
 export const GamesContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 `
 
 export const GameCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    width: 25vw;
 `
 
 export const GameCard = styled.div<IGameCard>`
@@ -34,8 +34,8 @@ export const GameCard = styled.div<IGameCard>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 400px;
+    height: 75vh;
+    width: 100%;
     border-radius: 30px;
     border: 2px solid red;
     margin-bottom: 40px;

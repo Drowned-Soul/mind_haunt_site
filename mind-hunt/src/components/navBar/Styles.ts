@@ -8,7 +8,7 @@ export interface InavBar {
 
 export const Container = styled.div<InavBar>`
     background-color: #111;
-    height: 100px;
+    height: 15vh;
     width: 100%;
     margin: ${(props) => props.margin || "auto"};
     z-index: 2;
