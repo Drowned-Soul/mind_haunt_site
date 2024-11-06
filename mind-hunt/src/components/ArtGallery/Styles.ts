@@ -1,43 +1,61 @@
 import styled from "styled-components";
 
-export interface IGameCard {
-    backgroundImage?: string; /* Nova prop para imagem de fundo */
+
+export interface ITitle {
+    color?: string; /* Nova prop para imagem de fundo */
 }
+
+export interface IArt{
+    backgroundImage?: string;
+}
+
 
 export const Container = styled.div`
     justify-content: center;
 `;
 
-export const Title = styled.h1`
-    color: red;
+export const Title = styled.h1<ITitle>`
+    color: ${(props) => props.color || "#fff"};;
     font-size: 70px;
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
+    line-height: 1;
+    margin: 100px 0;
 `
 
-export const GamesContainer = styled.div`
+export const Span = styled.span<ITitle>`
+    color: ${(props) => props.color || "#fff"};;
+    padding: 0 20px;
+`
+
+export const ArtsContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 100px
 `
 
-export const GameCardContainer = styled.div`
+export const DescriptionContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+`
+
+
+export const ArtCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 400px;
 `
 
-export const GameCard = styled.div<IGameCard>`
+export const ArtCard = styled.div<IArt>`
     background-image: url(${(props) => props.backgroundImage});
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
     width: 400px;
-    border-radius: 30px;
-    border: 2px solid red;
     margin-bottom: 40px;
 `;
 
@@ -46,15 +64,21 @@ export const Button = styled.button`
     background-color: red;
     color: #fff;
     height: 60px;
-    width: 100%;
-    border-radius: 10px;
+    width: 35%;
     padding: 15px 50px;
     font-family: sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin: 40px auto;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #701c16;
+    }
 `;
 
-export const GameDescription = styled.p`
-    color: #fff
+export const Text = styled.p`
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
 `

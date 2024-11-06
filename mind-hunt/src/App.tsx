@@ -4,6 +4,7 @@ import AboutUs from  './components/AboutUs/AboutUs';
 import Games from './components/GamesSection/Games';
 import OurTeam from './components/OurTeam/OurTeam';
 import Reviews from './components/ReviewsSection/ReviewsSection';
+import ArtGallery from './components/ArtGallery/ArtGallery';
 
 import { GlobalStyle } from './components/GlobalStyles/GlobalStyle';
 
@@ -17,6 +18,7 @@ function App() {
       <Games></Games>
       <OurTeam></OurTeam>
       <Reviews></Reviews>
+      <ArtGallery></ArtGallery>
     </>
   )
 }
