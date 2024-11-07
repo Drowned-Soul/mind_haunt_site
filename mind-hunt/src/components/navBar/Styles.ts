@@ -23,11 +23,11 @@ export const ImageContainer = styled.div`
     display: flex;
     width: 50px;
     height: 50px;
-`
+`;
 
 export const Image = styled.img`
     height: 100%;
-`
+`;
 
 export const NavItem = styled.p`
     color: #fff;
@@ -39,4 +39,4 @@ export const NavItem = styled.p`
         color: red;
         transform: scale(1.05);
     }
-`
+`;

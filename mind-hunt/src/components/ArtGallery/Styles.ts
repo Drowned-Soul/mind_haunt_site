@@ -22,24 +22,24 @@ export const Title = styled.h1<ITitle>`
     justify-content: center;
     line-height: 1;
     margin: 100px 0;
-`
+`;
 
 export const Span = styled.span<ITitle>`
     color: ${(props) => props.color || "#fff"};;
     padding: 0 20px;
-`
+`;
 
 export const ArtsContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 100px
-`
+`;
 
 export const DescriptionContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 25vw;
-`
+`;
 
 
 export const ArtCardContainer = styled.div`
@@ -47,7 +47,7 @@ export const ArtCardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-`
+`;
 
 export const ArtCard = styled.div<IArt>`
     background-image: url(${(props) => props.backgroundImage});
@@ -83,4 +83,4 @@ export const Text = styled.p`
     color: #fff;
     font-size: 30px;
     text-align: left;
-`
+`;

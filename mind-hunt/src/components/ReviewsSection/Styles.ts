@@ -21,20 +21,20 @@ export const Title = styled.h1<ITitle>`
     justify-content: center;
     line-height: 1;
     margin: 100px 0;
-`
+`;
 
 export const ReviewContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
-`
+`;
 
 export const ReviewCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 500px;
-`
+`;
 
 export const ReviewCard = styled.div`
     display:flex;

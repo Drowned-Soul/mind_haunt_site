@@ -20,14 +20,14 @@ export const Title = styled.h1<ITitle>`
     justify-content: center;
     line-height: 1;
     margin: 0;
-`
+`;
 
 export const PersonContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
     
-`
+`;
 
 export const PersonCardContainer = styled.div`
     display: flex;
@@ -35,7 +35,8 @@ export const PersonCardContainer = styled.div`
     align-items: center;
     max-width: 400px;
     
-`
+`;
+
 export const PersonCard = styled.div<IPersonCard>`
     position: relative;
     width: 30vw;
@@ -73,4 +74,4 @@ export const PersonName = styled.p`
     font-size: 30px;
     line-height: 1;
     margin: 0;
-`
+`;
