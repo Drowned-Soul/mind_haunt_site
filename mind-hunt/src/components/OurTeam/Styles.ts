@@ -34,7 +34,7 @@ export const PersonCardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-    
+    transition: 2s;
 `;
 
 export const PersonCard = styled.div<IPersonCard>`
@@ -75,3 +75,19 @@ export const PersonName = styled.p`
     line-height: 1;
     margin: 0;
 `;
+
+export const PersonButton = styled.button`
+    background-color: red;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto 0;
+    transition: .5s;
+
+    &:hover {
+        background-color: #701c16;
+    }
+`
