@@ -12,7 +12,8 @@ export const Container = styled.div<ICarousel>`
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 85vh;
+    width: 100%;
+    aspect-ratio: 1 / .40;
     position: relative;
     z-index: 1;
     top: 80px;

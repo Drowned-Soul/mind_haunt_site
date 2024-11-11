@@ -38,6 +38,6 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 55vh; 
+    width: 25vw; 
     object-fit: cover;
 `;

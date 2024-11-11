@@ -54,8 +54,8 @@ export const ArtCard = styled.div<IArt>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
     width: 20vw;
+    aspect-ratio: 1 / 1.6;
     margin-bottom: 40px;
 `;
 

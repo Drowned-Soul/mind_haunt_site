@@ -34,8 +34,8 @@ export const GameCard = styled.div<IGameCard>`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh;
     width: 100%;
+    aspect-ratio: 1 / 1.4;
     border-radius: 30px;
     border: 2px solid red;
     margin-bottom: 40px;
