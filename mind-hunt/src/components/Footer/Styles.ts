@@ -43,7 +43,7 @@ export const Span = styled.span`
     border: 1px solid #fff;
     height: 0;
     width: 100%;
-`
+`;
 
 export const Title = styled.h1`
     color: #fff;
@@ -52,13 +52,13 @@ export const Title = styled.h1`
     display: flex;
     line-height: 1;
     margin: 0;
-`
+`;
 
 export const Text = styled.p`
     color: #fff;
     font-size: 20px;
     font-family: sans-serif;
-`
+`;
 
 export const WhiteText = styled.p`
     color: #fff;
@@ -66,16 +66,16 @@ export const WhiteText = styled.p`
     font-family: sans-serif;
     padding: 0;
     margin: 10px;;
-`
+`;
 
 export const RedText = styled.p`
     color: red;
     font-size: 20px;
     font-family: sans-serif;
-`
+`;
 
 export const Image = styled.img`
     height: 90px;
     width: 90px;
     margin-bottom: 30px;
-`
+`;

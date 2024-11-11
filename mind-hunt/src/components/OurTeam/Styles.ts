@@ -20,22 +20,23 @@ export const Title = styled.h1<ITitle>`
     justify-content: center;
     line-height: 1;
     margin: 0;
-`
+`;
 
 export const PersonContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
     
-`
+`;
 
 export const PersonCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-    
-`
+    transition: 2s;
+`;
+
 export const PersonCard = styled.div<IPersonCard>`
     position: relative;
     width: 30vw;
@@ -73,4 +74,20 @@ export const PersonName = styled.p`
     font-size: 30px;
     line-height: 1;
     margin: 0;
+`;
+
+export const PersonButton = styled.button`
+    background-color: red;
+    border: none;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto 0;
+    transition: .5s;
+
+    &:hover {
+        background-color: #701c16;
+    }
 `

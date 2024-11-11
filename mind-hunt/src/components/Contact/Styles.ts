@@ -40,7 +40,7 @@ export const Title = styled.h1`
     display: flex;
     line-height: 1;
     margin: 0;
-`
+`;
 
 export const SubTitle = styled.h1`
     color: #fff;
@@ -49,27 +49,27 @@ export const SubTitle = styled.h1`
     display: flex;
     line-height: 1;
     margin: 0;
-`
+`;
 
 export const Text = styled.p`
     color: #fff;
     font-size: 15px;
     font-family: sans-serif;
     
-`
+`;
 
 export const TitleRed = styled.span`
     color: red;
-`
+`;
 
 export const TextContainer = styled.div`
     padding: 20px;
     width: 40vw;
-`
+`;
 
 export const ImageContainer = styled.div`
     display: block;
-`
+`;
 
 export const Image = styled.img`
     width: 100%; 

@@ -14,20 +14,20 @@ export const Title = styled.h1`
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
-`
+`;
 
 export const GamesContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 100px;
-`
+`;
 
 export const GameCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20vw;
-`
+`;
 
 export const GameCard = styled.div<IGameCard>`
     background-image: url(${(props) => props.backgroundImage});
@@ -63,4 +63,4 @@ export const Button = styled.button`
 
 export const GameDescription = styled.p`
     color: #fff
-`
+`;
