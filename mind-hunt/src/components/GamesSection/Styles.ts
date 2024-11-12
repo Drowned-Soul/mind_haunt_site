@@ -49,10 +49,10 @@ export const Button = styled.button`
     width: 100%;
     border-radius: 10px;
     padding: 15px 50px;
-    font-family: sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 40px;
+    font-family: "Alumni Sans", sans-serif;
 
     transition: .5s;
 
@@ -62,5 +62,6 @@ export const Button = styled.button`
 `;
 
 export const GameDescription = styled.p`
-    color: #fff
+    color: #fff;
+    font-family: "Alumni Sans", sans-serif;
 `;

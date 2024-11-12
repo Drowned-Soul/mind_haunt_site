@@ -20,8 +20,8 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
     color: #fff;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 24px;
+    font-family: "Alumni Sans", sans-serif;
 `;
 
 export const TitleRed = styled.span`

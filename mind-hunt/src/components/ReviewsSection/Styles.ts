@@ -67,6 +67,7 @@ export const Text = styled.p<ITitle>`
     color: ${(props) => props.color || "#fff"};
     font-size: 15px;
     word-wrap: break-word;
+    font-family: "Alumni Sans", sans-serif;
 `;
 
 export const TextBox = styled.div`

@@ -71,6 +71,7 @@ export const Button = styled.button`
     text-transform: uppercase;
     margin: 40px auto;
     border-radius: 10px;
+    font-family: "Alumni Sans", sans-serif;
 
     transition: .5s;
 
@@ -83,4 +84,5 @@ export const Text = styled.p`
     color: #fff;
     font-size: 30px;
     text-align: left;
+    font-family: "Alumni Sans", sans-serif;
 `;

@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
     :root {
         --green: #00A868;

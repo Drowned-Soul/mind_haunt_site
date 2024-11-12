@@ -87,6 +87,7 @@ export const PersonName = styled.p`
     font-size: 30px;
     line-height: 1;
     margin: 0;
+    font-family: "Alumni Sans", sans-serif;
 `;
 
 export const PersonButton = styled.button`
