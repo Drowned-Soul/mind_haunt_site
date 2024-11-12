@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Title, PersonContainer, PersonCardContainer, PersonCard, BorderPersonCard, PersonIcon, PersonName, PersonButton } from "./Styles";
 import border from '../../assets/blood_border.png';
-import None from '../../assets/none.jpg';
 
 export default function OurTeam() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,7 +22,13 @@ export default function OurTeam() {
         setCurrentIndex((prevIndex) => (prevIndex === teamMembers.length - 1 ? 0 : prevIndex + 1));
     };
 
-    const visibleMembers = teamMembers.slice(currentIndex, currentIndex + 3);
+    const getVisibleMembers = () => {
+        return [
+            teamMembers[currentIndex],
+            teamMembers[(currentIndex + 1) % teamMembers.length],
+            teamMembers[(currentIndex + 2) % teamMembers.length]
+        ];
+    };
 
     return (
         <Container>
@@ -32,7 +37,7 @@ export default function OurTeam() {
             <PersonContainer>
                 <PersonButton onClick={prevSlide}>◀</PersonButton>
 
-                {visibleMembers.map((member, index) => (
+                {getVisibleMembers().map((member, index) => (
                     <PersonCardContainer key={index}>
                         <PersonCard>
                             <PersonIcon backgroundImage={member.picture}></PersonIcon>

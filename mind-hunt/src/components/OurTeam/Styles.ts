@@ -35,6 +35,19 @@ export const PersonCardContainer = styled.div`
     align-items: center;
     max-width: 400px;
     transition: 2s;
+    animation: transform 0.3s ease;
+
+    &.slide-left {
+        transform: translateX(-100%);
+    }
+
+    &.slide-right {
+        transform: translateX(100%);
+    }
+
+    &:not(.slide-left):not(.slide-right) {
+        transform: translateX(0);
+    }
 `;
 
 export const PersonCard = styled.div<IPersonCard>`
@@ -91,3 +104,5 @@ export const PersonButton = styled.button`
         background-color: #701c16;
     }
 `
+
+
