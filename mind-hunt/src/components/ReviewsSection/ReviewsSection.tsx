@@ -4,7 +4,7 @@ import None from '../../assets/none.jpg';
 export default function Reviews() {
     return (
         <Container>
-            <Title>Reviews</Title>
+            <Title id="reviews">Reviews</Title>
             <ReviewContainer>
                 <ReviewCardContainer>
                     <ReviewCard>

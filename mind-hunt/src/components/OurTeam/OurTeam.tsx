@@ -31,7 +31,7 @@ export default function OurTeam() {
     };
 
     return (
-        <Container>
+        <Container id="team">
             <Title color="red">MindHaunt</Title>
             <Title>Team</Title>
             <PersonContainer>

@@ -3,7 +3,7 @@ import lobo from '../../assets/lobo.png';
 
 export default function AboutUs() {
     return (
-        <Container>
+        <Container id="about-us">
             <TextContainer>
             <Title>About <TitleRed>Us</TitleRed></Title>
             <Text>We are a studio committed to producing psychological horror experiences, focused on creating 

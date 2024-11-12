@@ -12,18 +12,18 @@ export default function Footer() {
                     <RedText>a game studio</RedText>
                 </Container>
                 <Container>
-                    <WhiteText>Main</WhiteText>
-                    <WhiteText>About Us</WhiteText>
-                    <WhiteText>Games</WhiteText>
-                    <WhiteText>Team</WhiteText>
-                    <WhiteText>Review</WhiteText>
-                    <WhiteText>Art Gallery</WhiteText>
-                    <WhiteText>Contact Us</WhiteText>
+                    <WhiteText as="a" href="#main">Main</WhiteText>
+                    <WhiteText as="a" href="#about-us">About Us</WhiteText>
+                    <WhiteText as="a" href="#games">Games</WhiteText>
+                    <WhiteText as="a" href="#team">Team</WhiteText>
+                    <WhiteText as="a" href="#reviews">Reviews</WhiteText>
+                    <WhiteText as="a" href="#art-gallery">Art Gallery</WhiteText>
+                    <WhiteText as="a" href="#contact-us">Contact Us</WhiteText>
                 </Container>
                 <Container>
-                    <WhiteText>Instagram</WhiteText>
-                    <WhiteText>TikTok</WhiteText>
-                    <WhiteText>mindhuntsudios@gmail.com</WhiteText>
+                    <WhiteText as="a" href="#main">Instagram</WhiteText>
+                    <WhiteText as="a" href="#main">TikTok</WhiteText>
+                    <WhiteText as="a" href="#main">mindhuntsudios@gmail.com</WhiteText>
                 </Container>
             </SubContainer>
             

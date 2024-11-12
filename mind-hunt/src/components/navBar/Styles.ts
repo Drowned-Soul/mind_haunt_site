@@ -39,4 +39,5 @@ export const NavItem = styled.p`
         color: red;
         transform: scale(1.05);
     }
+    text-decoration: none;
 `;

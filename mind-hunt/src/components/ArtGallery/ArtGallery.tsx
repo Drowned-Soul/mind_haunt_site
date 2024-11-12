@@ -5,7 +5,7 @@ import Art3 from '../../assets/art3.png';
 
 export default function ArtGallery() {
     return (
-        <Container>
+        <Container id="art-gallery">
             <Title><Span color="red">Art </Span> Gallery</Title>
 
             <ArtsContainer>

@@ -2,7 +2,7 @@ import { Container, Title, TitleRed, TextContainer, Text, ContainerInfos, Infos,
 
 export default function Contact() {
     return (
-        <Container>
+        <Container id="contact-us">
             <TextContainer>
             <Title>Contact <TitleRed>Us</TitleRed></Title>
             <Text>Interested in partnerships or have questions about our games? 

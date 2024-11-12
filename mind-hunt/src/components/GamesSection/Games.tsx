@@ -4,7 +4,7 @@ import game2 from '../../assets/Game_2.png';
 
 export default function Games() {
     return (
-        <Container>
+        <Container id="games">
             <Title>Games</Title>
             <br></br>
             <GamesContainer>

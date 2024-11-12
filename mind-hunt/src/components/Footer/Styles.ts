@@ -66,6 +66,12 @@ export const WhiteText = styled.p`
     font-family: sans-serif;
     padding: 0;
     margin: 10px;;
+    text-decoration: none;
+    transition: .2s;
+
+    &:hover{
+        color: red
+    }
 `;
 
 export const RedText = styled.p`
