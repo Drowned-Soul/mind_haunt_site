@@ -1,43 +1,47 @@
+name: Deploy static content to Pages
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Change Directory to mind-hunt
-        run: cd mind-hunt
-
-      - name: Remove node_modules and package-lock.json
-        run: |
-          rm -rf node_modules
-          rm -f package-lock.json
-
-      - name: Set up Node
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
-        working-directory: ./mind-hunt
 
-      - name: Build
+      - name: Build the project
         run: npm run build
-        working-directory: ./mind-hunt
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './mind-hunt/dist'
+          path: './dist'  
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Install rollup manually
-        run: npm install rollup --save-dev
-        working-directory: ./mind-hunt
