@@ -1,14 +1,8 @@
 import styled from "styled-components";
-
-export interface IGameCard {
-    backgroundImage?: string; /* Nova prop para imagem de fundo */
-}
-
-export const Container = styled.div`
+export const Container = styled.div `
     justify-content: center;
 `;
-
-export const Title = styled.h1`
+export const Title = styled.h1 `
     color: red;
     font-size: 50px;
     font-family: "Almendra SC", sans-serif;
@@ -16,21 +10,18 @@ export const Title = styled.h1`
     justify-content: center;
     margin-bottom: 150px;
 `;
-
-export const GamesContainer = styled.div`
+export const GamesContainer = styled.div `
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 100px;
 `;
-
-export const GameCardContainer = styled.div`
+export const GameCardContainer = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20vw;
 `;
-
-export const GameCard = styled.div<IGameCard>`
+export const GameCard = styled.div `
     background-image: url(${(props) => props.backgroundImage});
     background-size: cover;
     background-position: center;
@@ -41,8 +32,7 @@ export const GameCard = styled.div<IGameCard>`
     border: 2px solid red;
     margin-bottom: 40px;
 `;
-
-export const Button = styled.button`
+export const Button = styled.button `
     border: none;
     background-color: red;
     color: #fff;
@@ -61,8 +51,7 @@ export const Button = styled.button`
         background-color: #701c16;
     }
 `;
-
-export const GameDescription = styled.p`
+export const GameDescription = styled.p `
     color: #fff;
     font-family: "Alumni Sans", sans-serif;
 `;

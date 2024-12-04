@@ -1,18 +1,8 @@
 import styled from "styled-components";
-
-export interface ITitle {
-    color?: string; /* Nova prop para imagem de fundo */
-}
-
-export interface IPersonCard{
-    backgroundImage?: string;
-}
-
-export const Container = styled.div`
+export const Container = styled.div `
     justify-content: center;
 `;
-
-export const Title = styled.h1<ITitle>`
+export const Title = styled.h1 `
     color: ${(props) => props.color || "#fff"};;
     font-size: 50px;
     font-family: "Almendra SC", sans-serif;
@@ -21,14 +11,12 @@ export const Title = styled.h1<ITitle>`
     line-height: 1;
     margin: 0;
 `;
-
-export const PersonContainer = styled.div`
+export const PersonContainer = styled.div `
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
 `;
-
-export const PersonCardContainer = styled.div`
+export const PersonCardContainer = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,8 +36,7 @@ export const PersonCardContainer = styled.div`
         transform: translateX(0);
     }
 `;
-
-export const PersonCard = styled.div<IPersonCard>`
+export const PersonCard = styled.div `
     position: relative;
     width: 30vw;
     margin-bottom: 40px;
@@ -58,16 +45,14 @@ export const PersonCard = styled.div<IPersonCard>`
     align-items: center;
     justify-content: center;
 `;
-
-export const PersonIcon = styled.img<IPersonCard>`
+export const PersonIcon = styled.img `
     height: 15vw;
     z-index: 1;
     border-radius: 100%;
     margin: 70px 0;
     border: 15px solid #222;
 `;
-
-export const PersonName = styled.p`
+export const PersonName = styled.p `
     color: #fff;
     font-size: 30px;
     line-height: 1;
@@ -75,8 +60,7 @@ export const PersonName = styled.p`
     font-family: "Alumni Sans", sans-serif;
     text-align: center
 `;
-
-export const PersonButton = styled.button`
+export const PersonButton = styled.button `
     background-color: red;
     border: none;
     color: #fff;
@@ -90,6 +74,4 @@ export const PersonButton = styled.button`
     &:hover {
         background-color: #701c16;
     }
-`
-
-
+`;
