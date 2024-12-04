@@ -9,6 +9,10 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./mind-hunt
 
     steps:
       - name: Checkout repo
@@ -18,7 +22,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: actions/npm-install@v1
 
       - name: Build project
         run: npm run build
