@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
-  "homepage": "https://https://drowned-soul.github.io/mind_haunt_site/mind-hunt/",
+  "homepage": "https://drowned-soul.github.io/mind_haunt_site/src/",
   "dependencies": {
     "date-fns": "^4.1.0",
     "my-app": "file:",
