@@ -26,8 +26,8 @@ jobs:
       - name: Change directory to 'mind-hunt'
         run: cd mind-hunt
 
-        - name: Install dependencies
-          run: npm install --no-audit --no-fund
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
