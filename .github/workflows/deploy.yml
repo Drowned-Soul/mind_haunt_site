@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+      
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -16,13 +19,13 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
 
       - name: Install dependencies
-        uses: actions/npm-install@v1
+        uses: actions/npm-install@v4
 
       - name: Build project
         run: npm run build
@@ -31,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./mind-hunt/dist
 
   deploy:
     name: Deploy
@@ -44,10 +47,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./mind-hunt/dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: actions/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./mind-hunt/dist
