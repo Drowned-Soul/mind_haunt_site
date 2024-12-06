@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Container, Title, PersonContainer, PersonCardContainer, PersonCard, BorderPersonCard, PersonIcon, PersonName, PersonButton } from "./Styles";
 import border from '../../assets/blood_border.png';
 
